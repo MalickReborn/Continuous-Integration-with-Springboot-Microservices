@@ -52,6 +52,10 @@ The path of our [Jenkinsfile](https://github.com/MalickReborn/Continuous-Integra
 all this done we can launch the build process 
 [![Capture-d-cran-du-2023-12-13-00-14-35.png](https://i.postimg.cc/SxNDcfV4/Capture-d-cran-du-2023-12-13-00-14-35.png)](https://postimg.cc/MvN7SRh3)
 
+we can see that our pipeline has successfully analysed our static code and pushed buld and push our image on docker registry
+[![Capture-d-cran-du-2023-12-13-00-23-20.png](https://i.postimg.cc/pLRXCpnR/Capture-d-cran-du-2023-12-13-00-23-20.png)](https://postimg.cc/BX70QZgV)
+[![Capture-d-cran-du-2023-12-13-00-24-19.png](https://i.postimg.cc/6pMwhzXf/Capture-d-cran-du-2023-12-13-00-24-19.png)](https://postimg.cc/VJ03fq5J)
+
 in order for the pipeline to be triggered every time we have a change in the source code on github we must configure a web hook on github
 
 Switch to your GitHub account.
